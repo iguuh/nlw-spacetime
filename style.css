@@ -118,7 +118,7 @@ aside * {
   animation: entering 1s ease-in-out;
 }
 
-aside img:nth-child(2) {
+aside .profilePic {
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -142,6 +142,24 @@ aside p {
 aside span {
   font-size: 0.75rem;
   color: #9e9ea0;
+}
+
+
+
+.socialMedia {
+
+  display: block;
+  flex-direction: column;
+  
+}
+
+.socialMediaIcons {
+  display: flex;
+  width: 1rem;
+  height: 2rem;
+  gap: 1rem ;
+  padding-left: 1.5rem;
+  
 }
 
 @media (max-width: 768px) {
